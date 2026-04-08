@@ -74,6 +74,10 @@ const channels = [
 {id: 39, name: "Al Ghad", group: "arabic", type: "hls", src: "https://eazyvwqssi.erbvr.com/alghadtv/alghadtv.m3u8", logo: "./networkslogos/arabic/alghad.svg" },
 //{id: 39, name: "Al Ghad", group: "arabic", type: "youtube", src: "UCH4UNKBHSNwstan99YDoCVg", logo: "./networkslogos/arabic/alghad.svg" },
 
+{id: 40, name: "Shams TV", group: "arabic", type: "hls", src: "https://stream.shams.tv/hls/stream.m3u8", logo: "./networkslogos/arabic/shams.svg" },
+
+
+	
 
 /* -------- GULF / REGIONAL -------- */
 //{id: 90, name: "Al Ekhbariya", group: "gulfarabregion", type: "youtube", src: "UCV01ajGl6nt09h40iDoHDNg", logo: "./networkslogos/regional/saudiekhbariya.png" },
