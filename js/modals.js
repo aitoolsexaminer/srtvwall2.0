@@ -158,19 +158,16 @@ SITE PICKER MODAL
 const siteModal=document.getElementById("sitePickerModal");
 const siteClose=document.querySelector(".site-close");
 
-let siteActiveInput = null;
 
-document.querySelectorAll(".site-plus-btn").forEach(btn=>{
+document.querySelectorAll(".site-plus-btn").forEach(btn => {
+  btn.addEventListener("click", () => {
 
-  btn.addEventListener("click",()=>{
+    activeSiteSlot = parseInt(btn.dataset.slot);
 
-    siteActiveInput = btn.parentElement.querySelector("input");
-
-    if(siteModal)
-      siteModal.style.display="block";
+    if (siteModal)
+      siteModal.style.display = "block";
 
   });
-
 });
 
 /* CLOSE MODAL */
@@ -219,14 +216,11 @@ function buildSitePicker(){
 
     div.onclick = () => {
 
-      if(siteActiveInput){
-        siteActiveInput.value = site.name;
-
-        // optional: store URL if needed
-        siteActiveInput.dataset.url = site.url;
+      if (activeSiteSlot !== null) {
+        setSiteToSlot(site, activeSiteSlot);
       }
 
-      if(siteModal)
+      if (siteModal)
         siteModal.style.display = "none";
     };
 
