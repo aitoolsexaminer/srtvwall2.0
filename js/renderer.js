@@ -302,7 +302,8 @@ document.addEventListener("DOMContentLoaded", () => {
     if (el.requestFullscreen) el.requestFullscreen();
     else if (el.webkitRequestFullscreen) el.webkitRequestFullscreen();
     else if (el.msRequestFullscreen) el.msRequestFullscreen();
-    setTimeout(initDashboard, 100);
+    // setTimeout(initDashboard, 100);
+    initDashboard();
   }
 
   if (startBtn) {
@@ -427,10 +428,10 @@ function resizeDashboard() {
 
 /* ========================= DASHBOARD INIT ========================= */
 function initDashboard() {
-  if (!document.querySelector(".dashboard .tile")) {
-    setTimeout(initDashboard, 200);
-    return;
-  }
+  // if (!document.querySelector(".dashboard .tile")) {
+  //   setTimeout(initDashboard, 200);
+  //   return;
+  // }
   buildChannels();
   attachBroadcastEvents();
   const mainFrame = document.getElementById("mainFeedFrame");
