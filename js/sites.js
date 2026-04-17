@@ -82,7 +82,25 @@ const sites = [
   {
     name: "Arabic Post Global War Intelligence Dashboard",
     url: "https://story360.arabicpost.net/World/?_gl=1*zynvr8*_ga*MTAyMjQ4NzgyOS4xNzc2NDM2NDQw*_ga_KCCCXKWSNP*czE3NzY0MzY0NzUkbzEkZzAkdDE3NzY0MzY0NzUkajYwJGwwJGgw",
-    region: "Lebanon",
+    region: "Middle East",
+    type: "dashboard"
+  },
+  {
+    name: "Hormuz Strait Monitor",
+    url: "https://hormuzstraitmonitor.com/",
+    region: "Middle East",
+    type: "dashboard"
+  },
+  {
+    name: "Strait of Hormuz Ship Tracking Map",
+    url: "https://www.cruisingearth.com/port-tracker/middle-east/strait-of-hormuz/",
+    region: "Middle East",
+    type: "dashboard"
+  },
+  {
+    name: "Strait of Hormuz Tracker",
+    url: "https://www.hormuztracker.com/",
+    region: "Middle East",
     type: "dashboard"
   }
 ];
