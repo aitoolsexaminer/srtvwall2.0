@@ -76,6 +76,13 @@ const channels = [
 
 {id: 40, name: "Shams TV", group: "arabic", type: "hls", src: "https://stream.shams.tv/hls/stream.m3u8", logo: "./networkslogos/arabic/shams.svg" },
 
+{id: 41, name: "Al Jazeera Arabic 2", group: "arabic", type: "hls", src: "https://live-hls-web-aja2-gcp.thehlive.com/AJA2/index.m3u8", logo: "./networkslogos/arabic/aljazeera-arabic2.svg" },
+
+{id: 42, name: "Al Arabiya Programs", group: "arabic", type: "hls", src: "https://live.alarabiya.net/alarabiapublish/aaprograms.smil/playlist.m3u8", logo: "./networkslogos/arabic/alarabiya-programs.png" },
+
+	
+
+
 
 	
 
@@ -163,6 +170,9 @@ const channels = [
 {id: 126, name: "BFM TV", group: "intnews", type: "hls", src: "https://live-cdn-stream-euw1.bfmtv.bct.nextradiotv.com/master.m3u8", logo: "./networkslogos/intnews/bfmtv.png"},
 
 {id: 127, name: "Al Jazeera English", group: "intnews", type: "hls", src: "https://live‑hls‑apps‑aje‑fa.getaj.net/AJE/index.m3u8", logo: "./networkslogos/intnews/aljazeera-english.png"}, // updated HLS
+
+{id: 128, name: "Al Arabiya English", group: "arabic", type: "hls", src: "https://live.alarabiya.net/alarabiapublish/alarabiya.smil/playlist.m3u8", logo: "./networkslogos/arabic/alarabiya-english.svg" },
+
 
 
 
