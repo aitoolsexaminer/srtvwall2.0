@@ -202,7 +202,7 @@ const channels = [
 
 {id: 184, name: "DW Documentary",  group: "doclifestyle", type: "youtube", src: "@dwdocumentary/live" },
 
-{id: 185, name: "CGTN Documentary", group: "intnews", type: "hls", src: "https://live.cgtn.com/500d/prog_index.m3u8" },
+{id: 185, name: "CGTN Documentary", group: "doclifestyle", type: "hls", src: "https://live.cgtn.com/500d/prog_index.m3u8" },
 
 //{id: 160, name: "WaterBear", group: "doclifestyle", type: "hls", src: "https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg00353-littledotstudios-waterbear-samsunguk/playlist.m3u8" },
 //{id: 160, name: "WaterBear Nature", group: "doclifestyle", type: "hls", src: "https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg00353-littledotstudios-waterbear-samsunguk/playlist.m3u8" },
