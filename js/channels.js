@@ -171,7 +171,7 @@ const channels = [
 
 {id: 127, name: "Al Jazeera English", group: "intnews", type: "hls", src: "https://live‑hls‑apps‑aje‑fa.getaj.net/AJE/index.m3u8", logo: "./networkslogos/intnews/aljazeera-english.png"}, // updated HLS
 
-{id: 128, name: "Al Arabiya English", group: "arabic", type: "hls", src: "https://live.alarabiya.net/alarabiapublish/alarabiya.smil/playlist.m3u8", logo: "./networkslogos/arabic/alarabiya-english.svg" },
+{id: 128, name: "Al Arabiya English", group: "intnews", type: "hls", src: "https://live.alarabiya.net/alarabiapublish/alarabiya.smil/playlist.m3u8", logo: "./networkslogos/arabic/alarabiya-english.svg" },
 
 
 
