@@ -78,6 +78,12 @@ const sites = [
     url: "https://www.google.com/maps/d/embed?hl=en&mid=13ZqMRrNmHqoT3qKg4ItIzIbyj8Gr6Do&ll=33.222191688489666%2C35.37641170798704&z=11",
     region: "Lebanon",
     type: "map"
+  },
+  {
+    name: "Arabic Post Global War Intelligence Dashboard",
+    url: "https://story360.arabicpost.net/World/?_gl=1*zynvr8*_ga*MTAyMjQ4NzgyOS4xNzc2NDM2NDQw*_ga_KCCCXKWSNP*czE3NzY0MzY0NzUkbzEkZzAkdDE3NzY0MzY0NzUkajYwJGwwJGgw",
+    region: "Lebanon",
+    type: "dashboard"
   }
 ];
 
